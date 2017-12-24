@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+  <title>Consultations du Parlement ouvert</title>
+
+  <meta name="description" content="Application de participation citoyenne basée sur le logiciel Your Priorities">
+
+  <!-- Sharing information -->
+  <meta property="og:url" name="twitter:url" content="https://parlement-ouvert.fr/">
+  <meta property="og:title" name="twitter:title" content="Consultations du Parlement ouvert">
+  <meta property="og:description" name="twitter:description" content="Application de participation citoyenne basée sur le logiciel Your Priorities">
+  <meta property="og:image" content="/images/manifest_yp/icon-512x512.png">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="Application de participation citoyenne">
+
+  <link rel="shortcut icon" sizes="32x32" type="image/png" href="/images/manifest_yp/icon-32x32.png">
+  <link rel="shortcut icon" sizes="64x64" type="image/png" href="/images/manifest_yp/icon-64x64.png">
+
+  <!-- See https://goo.gl/OOhYW5 -->
+  <link rel="manifest" href="/manifest_po.json">
+
+  <!-- See https://goo.gl/qRE0vM -->
+  <meta name="theme-color" content="#000">
+
+  <!-- Add to homescreen for Chrome on Android. Fallback for manifest.json -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="application-name" content="Consultations du Parlement ouvert">
+
+  <!-- Add to homescreen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Consultations du Parlement ouvert">
+
+  <!-- Homescreen icons -->
+  <link rel="apple-touch-icon" href="/images/manifest_yp/icon-48x48.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/images/manifest_yp/icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="96x96" href="/images/manifest_yp/icon-96x96.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/images/manifest_yp/icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="192x192" href="/images/manifest_yp/icon-192x192.png">
+
+  <!-- Tile icon for Windows 8 (144x144 + tile color) -->
+  <meta name="msapplication-TileImage" content="/images/manifest_yp/icon-144x144.png">
+  <meta name="msapplication-TileColor" content="#3f51b5">
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <script>
+    // Setup Polymer options
+    window.Polymer = {
+      //dom: 'shadow',
+      lazyRegister: 'max',
+      suppressTemplateNotifications: true,
+      suppressBindingNotifications: true
+    };
+
+    // Load webcomponentsjs polyfill if browser does not support native Web Components
+    (function() {
+      'use strict';
+
+      var onload = function() {
+        // For native Imports, manually fire WebComponentsReady so user code
+        // can use the same code path for native and polyfill'd imports.
+        if (!window.HTMLImports) {
+          document.dispatchEvent(
+            new CustomEvent('WebComponentsReady', {bubbles: true})
+          );
+        }
+      };
+
+      var webComponentsSupported = (
+        'registerElement' in document
+        && 'import' in document.createElement('link')
+        && 'content' in document.createElement('template')
+      );
+
+      if (!webComponentsSupported) {
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = '/bower_components/webcomponentsjs/webcomponents-lite.min.js?v=@version@';
+        script.onload = onload;
+        document.head.appendChild(script);
+      } else {
+        onload();
+      }
+    })();
+
+    // Load pre-caching Service Worker
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function() {
+        navigator.serviceWorker.register('/service-worker.js');
+      });
+    }
+  </script>
+
+  <link rel="import" href="/src/yp-app/yp-app.html?v=@version@">
+
+  <link rel="stylesheet" href="/styles/main.css?v=@version@">
+  <link rel="import" href="/styles/app-theme.html?v=@version@">
+</head>
+<body>
+  <yp-app id="app" app-ready="{{appReady}}"></yp-app>
+
+  <script src="/src/i18next-1.7.4.min.js"></script>
+  <script src="/src/app.js?v=@version@"></script>
+
+  <div id="fb-root"></div>
+</body>
+</html>

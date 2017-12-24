@@ -6,6 +6,8 @@ module.exports = {
     '/manifest_br.json',
     '/index_bi.html',
     '/manifest_bi.json',
+    '/index_po.html',
+    '/manifest_po.json',
     '/bower_components/webcomponentsjs/webcomponents-lite.min.js'
   ],
   navigateFallback: '/index.html'

@@ -11,6 +11,8 @@ var sendIndex = function (req, res) {
       res.sendFile(path.resolve(__dirname, '../../client_app/build/bundled/index_br.html'));
     } else if (req.hostname.indexOf('betraisland.is') > -1) {
       res.sendFile(path.resolve(__dirname, '../../client_app/build/bundled/index_bi.html'));
+    } else if (req.hostname.indexOf('parlement-ouvert.fr') > -1) {
+      res.sendFile(path.resolve(__dirname, '../../client_app/build/bundled/index_po.html'));
     } else {
       res.sendFile(path.resolve(__dirname, '../../client_app/build/bundled/index_yp.html'));
     }
