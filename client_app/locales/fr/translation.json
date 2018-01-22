@@ -104,7 +104,7 @@
   "confirm": "Confirmer",
   "access": "Accéder",
   "searchFor": "Rechercher...",
-  "title": "Titre",
+  "title": "Sujet",
   "selectLanguage": "Sélectionner la langue",
   "update": "Mettre à jour",
   "errorCantConnect": "Échec de la connexion au serveur. Veuillez réessayer plus tard. Cela peut être dû à un trafic élevé ou à une mise à jour du logiciel",
@@ -256,10 +256,10 @@
     "debate": "Débattre",
     "formInvalid": "Compléter le formulaire",
     "status": "État de cette idée",
-    "new": "Nouvelle idée",
+    "new": "Nouvelle proposition",
     "searchingFor": "Recherche de",
     "top": "Populaire",
-    "newest": "Récent",
+    "newest": "Questions posées",
     "random": "Aléatoire",
     "inProgress": "En cours",
     "groups": "Soumettre les groupes",
@@ -336,7 +336,7 @@
     "commentToShort": "Le texte est trop court !"
   },
 
-  "news": "Actualités",
+  "news": "Questions choisies",
 
   "uploading": {
     "inProgress": "Téléversement en cours..."
@@ -429,7 +429,7 @@
     "forgotPasswordEmailHasBeenSent": "Un courriel avec les instructions pour changer de mot de passe a été envoyé",
     "resetPassword": "Réinitialiser votre mot de passe",
     "resetPasswordInstructions": "Créez un nouveau mot de passe difficile à deviner",
-    "login": "Identification",
+    "login": "Connexion",
     "create": "Créer un utilisateur",
     "cancel": "Annuler",
     "logout": "Déconnecter",
