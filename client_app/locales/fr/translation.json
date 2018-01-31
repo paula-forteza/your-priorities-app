@@ -106,7 +106,7 @@
   "confirm": "Confirmer",
   "access": "Accéder",
   "searchFor": "Rechercher...",
-  "title": "Sujet",
+  "title": "Titre de ma question",
   "selectLanguage": "Sélectionner la langue",
   "update": "Mettre à jour",
   "errorCantConnect":
@@ -256,7 +256,7 @@
     "statusChangeSent": "Courriels de changement d'état envoyés",
     "noLocation": "Aucune localisation",
     "shareInfo": "Partager la question",
-    "description": "Description",
+    "description": "Détail de ma question",
     "debate": "Débattre",
     "formInvalid": "Compléter le formulaire",
     "status": "État de cette question",
