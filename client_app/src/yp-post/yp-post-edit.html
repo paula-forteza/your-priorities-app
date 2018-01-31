@@ -225,26 +225,6 @@
             </div>
           </section>
 
-          <template is="dom-if" restamp if="[[newPost]]">
-            <section class="subContainer">
-              <paper-textarea id="pointFor"
-                              required$="[[!group.configuration.newPointOptional]]"
-                              minlength="3"
-                              name="pointFor"
-                              value="{{post.pointFor}}"
-                              always-float-label="[[post.pointFor]]"
-                              label="[[t('point.for')]]"
-                              char-counter
-                              rows="2"
-                              max-rows="5"
-                              maxlength="500">
-              </paper-textarea>
-              <div class="horizontal end-justified layout" hidden$="[[group.configuration.hideEmoji]]">
-                <emoji-selector id="emojiSelectorPointFor"></emoji-selector>
-              </div>
-            </section>
-          </template>
-
           <template is="dom-if" if="[[!locationHidden]]" restamp>
             <section>
               <template is="dom-if" if="[[mapActive]]" restamp>
