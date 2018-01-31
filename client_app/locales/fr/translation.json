@@ -9,7 +9,8 @@
   "allowAnonymousUsers": "Autoriser les utilisateurs anonymes",
   "deleteUser": "Supprimer le compte utilisateur",
   "areYouSureYouWantToDeleteUser": "Êtes-vous sûr de vouloir supprimer votre compte ?",
-  "areYouReallySureYouWantToDeleteUser": "Êtes-vous 100% certain de vouloir supprimer votre compte ? Tous vos commentaires, remarques et approbations seront supprimés et toutes vos idées seront anonymisées !",
+  "areYouReallySureYouWantToDeleteUser":
+    "Êtes-vous 100% certain de vouloir supprimer votre compte ? Tous vos commentaires, remarques et approbations seront supprimés et toutes vos questions seront anonymisées !",
   "alternativePointForLabel": "Libellé de remarque favorable ",
   "alternativePointAgainstLabel": "Libellé de remarque défavorable",
   "sharePoint": "Partager la remarque",
@@ -21,7 +22,7 @@
   "defaultLocationLongLat": "Latitude, longitude de la position par défaut",
   "disableCommunityDomainUpLink": "Désactiver le lien montant vers le domaine",
   "analyticsTrackerCode": "ID Google Analytics",
-  "filterIdeas": "Filtrer les idées",
+  "filterIdeas": "Filtrer les questions",
   "edit": "Éditer",
   "delete": "Supprimer",
   "addEmoji": "Ajouter un Emoji",
@@ -41,25 +42,26 @@
   "userToastCreated": "Créer l'utilisateur",
   "userToastUpdated": "Utilisateur enregistré",
   "hideGroupHeader": "Masquer l'entête de groupe",
-  "errorResetTokenNotFoundOrUsed": "Le jeton de réinitialisation du mot de passe n'a pas été trouvé ou n'a pas été utilisé",
-  "addedAnIdea": "Idée ajoutée",
+  "errorResetTokenNotFoundOrUsed":
+    "Le jeton de réinitialisation du mot de passe n'a pas été trouvé ou n'a pas été utilisé",
+  "addedAnIdea": "Question ajoutée",
   "recommendedPosts": "Recommandé",
   "noComments": "Sans commentaire",
   "optional": "Optionnel",
-  "additionalGroupConfig":"Configuration de groupe additionnelle",
-  "defaultDataImage":"Image par défaut des données",
-  "defaultPostImage":"Image par défaut des soumissions",
-  "hideAllTabs":"Cacher toutes les tabulations",
-  "hideNewPostOnPostPage":"Cacher la nouvelle soumission dans la page des soumissions",
-  "newPointOptional":"Rendre une nouvelle remarque optionnelle",
-  "hideHelpIcon":"Masquer l'icône d'aide",
-  "hideEmoji":"Masquer les Emojis",
-  "endorsementButtonsHeart":"Cœurs",
-  "endorsementArrows":"Flêches",
-  "endorsementThumbs":"Pouces",
-  "endorsementHats":"Chapeaux",
+  "additionalGroupConfig": "Configuration de groupe additionnelle",
+  "defaultDataImage": "Image par défaut des données",
+  "defaultPostImage": "Image par défaut des soumissions",
+  "hideAllTabs": "Cacher toutes les tabulations",
+  "hideNewPostOnPostPage": "Cacher la nouvelle soumission dans la page des soumissions",
+  "newPointOptional": "Rendre une nouvelle remarque optionnelle",
+  "hideHelpIcon": "Masquer l'icône d'aide",
+  "hideEmoji": "Masquer les Emojis",
+  "endorsementButtonsHeart": "Cœurs",
+  "endorsementArrows": "Flêches",
+  "endorsementThumbs": "Pouces",
+  "endorsementHats": "Chapeaux",
   "endorsementButtons": "Boutons d'approbation",
-  "bulkStatusUdateForInfo": "Cliquer sur les idées pour plus d'informations",
+  "bulkStatusUdateForInfo": "Cliquer sur les questions pour plus d'informations",
   "urlLink": "Lien",
   "bulkStatusUdateFor": "Mise à jour de l'état activée",
   "inviteNotFoundOrAlreadyUsed": "Invitation non trouvée ou déjà utilisée",
@@ -81,15 +83,15 @@
   "bulkStatusUpdatesTemplates": "Squelettes de mise à jour par lot de l'état",
   "selectStatusTemplate": "Squelette",
   "moveToGroup": "Déplacer",
-  "noIdeasHere": "Il n'y a aucune idée ici.",
+  "noIdeasHere": "Il n'y a aucune question ici.",
   "organizationsAdmin": "Administrateurs d'organisations",
   "unviewed": "Non vu",
   "notificationMarkAllViewed": "Tout marquer comme vu",
   "notificationConfirmMarkAllViewed": "Confirmer que vous voulez marquer toutes vos notifications comme vues",
   "upVotedPoint": "Voté en faveur de votre remarque",
   "downVotedPoint": "Voté en défaveur de votre remarque",
-  "endorsedYourPost": "Favorable à votre idée",
-  "opposedYourPost": "Opposé à votre idée",
+  "endorsedYourPost": "Favorable à votre question",
+  "opposedYourPost": "Opposé à votre question",
   "notifications": "Notifications",
   "votingDisabled": "Le vote n'est pas activé",
   "pageNotFound": "La page demandée par l'application est non trouvée",
@@ -107,12 +109,13 @@
   "title": "Sujet",
   "selectLanguage": "Sélectionner la langue",
   "update": "Mettre à jour",
-  "errorCantConnect": "Échec de la connexion au serveur. Veuillez réessayer plus tard. Cela peut être dû à un trafic élevé ou à une mise à jour du logiciel",
+  "errorCantConnect":
+    "Échec de la connexion au serveur. Veuillez réessayer plus tard. Cela peut être dû à un trafic élevé ou à une mise à jour du logiciel",
   "errorNotFound": "Non trouvé...",
   "errorNotAuthorized": "Vous n'avez pas accès à ceci !",
   "generalError": "Une erreur inattendue est survenue. Nous avons été notifié.",
   "stats": {
-    "posts": "Nombre d'idées",
+    "posts": "Nombre de questions",
     "discussions": "Nombre de discussions",
     "communities": "Nombre de communautés",
     "groups": "Nombre de groupes",
@@ -122,7 +125,7 @@
     "passwordResetAndLoggedIn": "Votre mot de passe a été modifié et vous êtes maintenant connecté",
     "method": "Méthode",
     "frequency": "Fréquence",
-    "myPosts": "Mes idées",
+    "myPosts": "Mes questions",
     "muted": "Éteindre",
     "browser": "Navigateur",
     "email": "Courriel",
@@ -131,7 +134,7 @@
     "hourly": "Toutes les heures",
     "weekly": "Toute les semaines",
     "monthly": "Tous les mois",
-    "myPostsEndorsements": "Idées que j'aime",
+    "myPostsEndorsements": "Questions que j'aime",
     "myPoints": "Mes remarques",
     "myPointEndorsements": "Remarques que j'aime",
     "allCommunity": "Toutes les notifications de mes communautés",
@@ -162,19 +165,19 @@
   },
 
   "pluralStatus": {
-    "published": "Idées ouvertes",
-    "successful": "Idées fructueuses",
-    "failed": "Idées infructueuses",
-    "inProgress": "Idées en cours",
-    "inVoting": "Idées au vote"
+    "published": "Questions ouvertes",
+    "successful": "Questions fructueuses",
+    "failed": "Questions infructueuses",
+    "inProgress": "Questions en cours",
+    "inVoting": "Questions au vote"
   },
 
   "activity": {
     "confirmDelete": "Confirmez-vous que vous souhaitez supprimer cette activité ?",
     "post": {
-      "new": "Idée",
+      "new": "Question",
       "status": {
-       "change": "Mise à jour de l'état"
+        "change": "Mise à jour de l'état"
       }
     },
     "point": {
@@ -221,18 +224,18 @@
     "public": "Communauté publique",
     "closed": "Communauté fermée",
     "secret": "Communauté secrète",
-    "pages":"Pages de la communauté",
+    "pages": "Pages de la communauté",
     "onlyAdminsCanCreateGroups": "Seuls les administrateurs peuvent créer des groupes"
   },
 
   "posts": {
-    "posts": "Idées",
-    "open": "Ouvert",
+    "posts": "Questions",
+    "open": "Questions posées",
     "inProgress": "En cours",
     "successful": "Fructueux",
     "failed": "Infructueux",
     "map": "Carte",
-    "noMapPosts": "Aucune idée localisée",
+    "noMapPosts": "Aucune question localisée",
     "newUserImage": "Ajouter une photo"
   },
 
@@ -242,35 +245,36 @@
 
   "post": {
     "most_debated": "Le plus débatu",
-    "deleteConfirmation": "Êtes-vous sûr de vouloir supprimer cette idée ?",
-    "move": "Déplacer l'idée",
+    "deleteConfirmation": "Êtes-vous sûr de vouloir supprimer cette question ?",
+    "move": "Déplacer la question",
     "confirmMove": "Confirmez que vous souhaitez déplacer",
-    "statusChangeConfirmText": "Êtes-vous sûr de vouloir envoyer un courriel à toutes les personnes pour ou contre cette idée ?",
+    "statusChangeConfirmText":
+      "Êtes-vous sûr de vouloir envoyer un courriel à toutes les personnes pour ou contre cette question ?",
     "statusChangeSelectNewStatus": "Nouvel état",
     "statusChangeContent": "Contenu à envoyer aux supporters ou aux opposants en cas de changement détat",
     "statusChange": "Envoyer des courriels de changement d'état",
     "statusChangeSent": "Courriels de changement d'état envoyés",
     "noLocation": "Aucune localisation",
-    "shareInfo": "Partager l'idée",
+    "shareInfo": "Partager la question",
     "description": "Description",
     "debate": "Débattre",
     "formInvalid": "Compléter le formulaire",
-    "status": "État de cette idée",
-    "new": "Nouvelle proposition",
+    "status": "État de cette question",
+    "new": "Nouvelle question",
     "searchingFor": "Recherche de",
     "top": "Populaire",
     "newest": "Questions posées",
     "random": "Aléatoire",
     "inProgress": "En cours",
     "groups": "Soumettre les groupes",
-    "search": "Rechercher des idées",
-    "add_new":"Proposer une question",
-    "up_vote":"Approuver l'idée",
-    "down_vote":"Désapprouver l'idée",
-    "report": "Signaler l'idée",
-    "notify": "Me notifier à propos de cette idée",
-    "share": "Partager cette idée",
-    "yourPost": "Idée",
+    "search": "Rechercher des questions",
+    "add_new": "Proposer une question",
+    "up_vote": "Approuver la question",
+    "down_vote": "Désapprouver la question",
+    "report": "Signaler la question",
+    "notify": "Me notifier à propos de cette question",
+    "share": "Partager cette question",
+    "yourPost": "Question",
     "yourPoint": "Remarques favorables",
     "location": "Localisation",
     "photo": "Photo",
@@ -288,15 +292,16 @@
     },
     "cover": {
       "media": "Choisir un média de couverture",
-      "imageInfo": "Si vous ajoutez une image, les gens ont plus de chance de la partager. Et partagez votre idée sur les réseaux sociaux !",
+      "imageInfo":
+        "Si vous ajoutez une image, les gens ont plus de chance de la partager. Et partagez votre question sur les réseaux sociaux !",
       "map": "Carte",
       "streetview": "Vue de la rue",
       "image": "Image",
       "none": "Aucun"
     },
-    "edit": "Éditer l'idée",
-    "delete": "Supprimer l'idée",
-    "addNewIntroBoxText": "Utilisez le bouton d'action en forme d'ampoule pour ajouter de nouvelles idées"
+    "edit": "Éditer la question",
+    "delete": "Supprimer la question",
+    "addNewIntroBoxText": "Utilisez le bouton d'action en forme d'ampoule pour ajouter de nouvelles questions"
   },
 
   "short_word": {
@@ -332,7 +337,8 @@
     "addComment": "Votre commentaire...",
     "postComment": "Soumettre",
     "comments": "Commentaires",
-    "howToWrite": "Cherchons des solutions à partir d'un remue-méninges sur les meilleures remarques favorables et défavorables...",
+    "howToWrite":
+      "Cherchons des solutions à partir d'un remue-méninges sur les meilleures remarques favorables et défavorables...",
     "commentToShort": "Le texte est trop court !"
   },
 
@@ -344,10 +350,13 @@
 
   "notice": {
     "ok": "OK",
-    "feature_not_implemented_a": "Cette fonctionnalité n'a pas encore été implémentée dans cette préversion en lecture seule de de Your Priorities 6.0.",
+    "feature_not_implemented_a":
+      "Cette fonctionnalité n'a pas encore été implémentée dans cette préversion en lecture seule de de Your Priorities 6.0.",
     "feature_not_implemented_b": "Faites-nous savoir ce que vous pensez :)",
-    "welcome_a": "Comme c'est une préversion de de Your Priorities 6.0, vous pouvez seulement voir le contenu et non en ajouter. Vos retours seront très appréciés.",
-    "welcome_b": "Actuellement, cela ne fonctionne que dans Chrome, mais cela supportera les principaux navigateurs au 1er trimestre 2015.",
+    "welcome_a":
+      "Comme c'est une préversion de de Your Priorities 6.0, vous pouvez seulement voir le contenu et non en ajouter. Vos retours seront très appréciés.",
+    "welcome_b":
+      "Actuellement, cela ne fonctionne que dans Chrome, mais cela supportera les principaux navigateurs au 1er trimestre 2015.",
     "welcome_heading": "Bienvenue sur cette préversion technique de Your Priorities 6.0",
     "continue": "Continuer à tester",
     "deleteConfirmation": "Voulez-vous supprimer ce groupe ?"
@@ -376,7 +385,7 @@
     "secret": "Groupe secret",
     "openToCommunity": "Ouvert à la communauté",
     "canVote": "Vote possible",
-    "canAddNewPosts": "Nouvelles idées possibles",
+    "canAddNewPosts": "Nouvelles questions possibles",
     "config": "Configurer",
     "update": "Mettre à jour le groupe"
   },
@@ -391,7 +400,6 @@
     "about": "À propos",
     "help": "Aide",
     "settings": "Réglages"
-
   },
 
   "users": {
@@ -418,14 +426,15 @@
     "loggedInWithSaml": "Connecté par SAML",
     "loggedInWithFacebook": "Connecté par Facebook",
     "facebookLogin": "Identification Facebook",
-    "info":"Information",
+    "info": "Information",
     "notifications": "Notifications",
     "name": "Nom complet",
     "email": "Courriel",
     "edit": "Éditer l'utilisateur",
     "password": "Mot de passe",
     "forgotPassword": "Créer un nouveau mot de passe",
-    "forgotPasswordInstructions": "Entrez votre adresse courriel et nous vous enverrons un courriel conteant un lien que vous pourrez utiliser pour créer un nouveau mot de passe.",
+    "forgotPasswordInstructions":
+      "Entrez votre adresse courriel et nous vous enverrons un courriel conteant un lien que vous pourrez utiliser pour créer un nouveau mot de passe.",
     "forgotPasswordEmailHasBeenSent": "Un courriel avec les instructions pour changer de mot de passe a été envoyé",
     "resetPassword": "Réinitialiser votre mot de passe",
     "resetPasswordInstructions": "Créez un nouveau mot de passe difficile à deviner",
