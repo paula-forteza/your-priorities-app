@@ -247,7 +247,9 @@
               </div>
             </paper-tab>
           </template>
-          <paper-tab name="news">[[t('news')]]</paper-tab>
+          <paper-tab link name="news">
+            <a href="https://reponses.parlement-ouvert.fr/" class="link" tabindex="-1">[[t('news')]]</a>
+          </paper-tab>
           <paper-tab name="map" hidden$="[[locationHidden]]">[[t('posts.map')]]</paper-tab>
         </paper-tabs>
       </div>
