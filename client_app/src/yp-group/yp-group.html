@@ -260,7 +260,11 @@
         </section>
         <section name="news" class="minHeightSection">
           <template is="dom-if" if="[[newsTabSelected]]">
-            <ac-activities id="groupActivities" disable-new-posts="[[disableNewPosts]]" selected-tab="[[selectedTab]]" list-route="[[listRoute]]" group-id="[[group.id]]"></ac-activities>
+            <div class="layout horizontal center-center">
+              <a href="https://reponses.parlement-ouvert.fr/"  style="background-color: #D0672F; color: white; font-size: 20px; margin-top: 24px" target="_blank">
+                <paper-button>Voir les questions choisies</paper-button>
+              </a>
+            </div>
           </template>
         </section>
         <template is="dom-if" if="[[hasNonOpenPosts]]">
