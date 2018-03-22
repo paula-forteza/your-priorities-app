@@ -414,7 +414,7 @@
   },
 
   "user": {
-    "loginCompleteFor": "Se connecter en tant que",
+    "loginCompleteFor": "Connecté en tant que",
     "acceptInvite": "Accepter l'invitation à participer",
     "hasSentYouAndInvitation": "vous a envoyé une invitation à participer à",
     "acceptInviteInstructions": "Cliquer sur le bouton ci-dessous pour accepter l'invitation",
